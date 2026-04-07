@@ -1,32 +1,23 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <title>Ahmad Syaifudin | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmad | Portfolio</title>
 
-    <!-- RESPONSIVE -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- ICON -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-    <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <!-- SWIPER -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<!-- ICON -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
 <body>
 
-<div id="particles-js"></div>
-
+<!-- NAVBAR -->
 <header>
     <h1>Ahmad</h1>
     <nav>
+        <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#project">Project</a>
@@ -34,80 +25,75 @@
     </nav>
 </header>
 
-<section class="hero" data-aos="fade-up">
-    <div class="hero-content">
+<!-- HOME -->
+<section id="home" class="section hero">
+    <div class="content">
         <h2>Hi, I'm Ahmad 👋</h2>
-        <p><span class="typing"></span></p>
-        <a href="cv.pdf" class="btn" download>Download CV</a>
+        <p>Web Developer | Laravel Enthusiast</p>
+        <a href="cv.pdf" class="btn">Download CV</a>
     </div>
     <img src="img/aku.png.jpeg">
 </section>
 
-<section id="about" class="about" data-aos="fade-up">
-    <h2>About Me</h2>
-    <p>Mahasiswa semester 6 yang fokus pada Web Development, Laravel, dan UI Design modern.</p>
-</section>
-
-<section id="skills" class="skills" data-aos="fade-up">
-    <h2>Skills</h2>
-
-    <div class="skill">
-        <span>HTML</span>
-        <div class="bar"><div style="width:90%"></div></div>
-    </div>
-
-    <div class="skill">
-        <span>CSS</span>
-        <div class="bar"><div style="width:80%"></div></div>
-    </div>
-
-    <div class="skill">
-        <span>Laravel</span>
-        <div class="bar"><div style="width:70%"></div></div>
+<!-- ABOUT -->
+<section id="about" class="section">
+    <div class="center">
+        <h2>About Me</h2>
+        <p>Mahasiswa semester 6 yang fokus pada Web Development, Laravel, dan UI Design modern.</p>
     </div>
 </section>
 
-<section id="project" class="project" data-aos="zoom-in">
-    <h2>Projects</h2>
+<!-- SKILLS -->
+<section id="skills" class="section">
+    <div class="center">
+        <h2>Skills</h2>
 
-    <div class="swiper">
-        <div class="swiper-wrapper">
+        <div class="skill">
+            <span>HTML</span>
+            <div class="bar"><div style="width:90%"></div></div>
+        </div>
 
-            <div class="swiper-slide card">
-                <h3>SIKEAN</h3>
-                <p>Sistem Informasi Kegiatan Harian berbasis Laravel.</p>
-            </div>
+        <div class="skill">
+            <span>CSS</span>
+            <div class="bar"><div style="width:80%"></div></div>
+        </div>
 
-            <div class="swiper-slide card">
-                <h3>Website Profile</h3>
-                <p>Website modern HTML CSS.</p>
-            </div>
-
+        <div class="skill">
+            <span>Laravel</span>
+            <div class="bar"><div style="width:70%"></div></div>
         </div>
     </div>
 </section>
 
-<section id="contact" class="contact" data-aos="fade-up">
-    <h2>Contact</h2>
+<!-- PROJECT -->
+<section id="project" class="section">
+    <div class="center">
+        <h2>Projects</h2>
 
-    <div class="social">
-        <a href="mailto:ahmadsyaifudin2005@email.com"><i class="fa-solid fa-envelope"></i></a>
-        <a href="https://instagram.com/sya.fdn" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://tiktok.com/@syafdnn" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        <div class="card">
+            <h3>SIKEAN</h3>
+            <p>Sistem Informasi Kegiatan Harian berbasis Laravel.</p>
+        </div>
+
+        <div class="card">
+            <h3>Website Profile</h3>
+            <p>Website modern HTML CSS.</p>
+        </div>
     </div>
 </section>
 
-<footer>
-    <p>© 2026 Ahmad Syaifudin</p>
-</footer>
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <div class="center">
+        <h2>Contact</h2>
 
-<!-- SCRIPT -->
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<script src="script.js"></script>
+        <div class="social">
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+    </div>
+</section>
 
 </body>
 </html>

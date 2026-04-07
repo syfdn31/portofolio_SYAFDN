@@ -3,15 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ahmad Portfolio</title>
+<title>Ahmad Syaifudin | Portfolio</title>
 
 <link rel="stylesheet" href="style.css">
+
+<!-- ICON -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
 
+<!-- BACKGROUND PARTICLES -->
+<div id="particles-js"></div>
+
 <header>
-    <h1>Ahmad</h1>
+    <h1>Syafdn</h1>
     <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
@@ -20,35 +26,65 @@
     </nav>
 </header>
 
+<!-- HERO -->
 <section class="hero">
-    <h2>Hi, I'm Ahmad 👋</h2>
+    <h2>Hi, I'm Ahmad Syaifudin👋</h2>
     <p>Web Developer | Laravel Enthusiast</p>
     <img src="img/aku.png.jpeg">
 </section>
 
 <section id="about" class="section">
     <h2>About Me</h2>
-    <p>Saya fokus pada pengembangan website modern dan Laravel.</p>
+    <p>Saya mahasiswa semester 6 fokus web development.</p>
 </section>
 
 <section id="skills" class="section">
     <h2>Skills</h2>
-    <p>HTML • CSS • Laravel</p>
+
+    <div class="skill">
+        <span>HTML</span>
+        <div class="bar"><div style="width:90%"></div></div>
+    </div>
+
+    <div class="skill">
+        <span>CSS</span>
+        <div class="bar"><div style="width:80%"></div></div>
+    </div>
+
 </section>
 
 <section id="project" class="section">
-    <h2>Projects</h2>
-    <p>SIKEAN & Website Portfolio</p>
+    <h2>Project</h2>
+    <div class="card">
+        <h3>SIKEAN</h3>
+        <p>Sistem Informasi berbasis Laravel</p>
+    </div>
+    <div class="card">
+        <h3>WEBSITE</h3>
+        <p>Portofollio Pribadi Data Diri</p>
+    </div>
 </section>
+
 
 <section id="contact" class="section">
     <h2>Contact</h2>
     <div class="social">
-        <a href="#"><i class="fa-solid fa-envelope"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:ahmadsyaifudin2005@email.com">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <a href="https://instagram.com/sya.fdn" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://tiktok.com/@syafdnn" target="_blank">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
     </div>
 </section>
 
+<!-- SCRIPT -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 <script src="script.js"></script>
 
 </body>
